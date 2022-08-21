@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Alterar Dados do Terapeutas</title>
+    <link href="links.css" rel="stylesheet">
+    <link href="layout.css" rel="stylesheet">
+    <link href="Form.css" rel="stylesheet">
+    <link href="input.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <a class="linkInicio" href="Terapeutas.html"> Voltar</a><br>
+    <div class="box">
+        <h2>Alterar Dados do Terapeutas por CRP</h2>
+        
+        <form action="..\Controller\AlterarTerapeuta.php" method="POST">
+            CRP: <input type="text" name="ccrp" required><br><br>
+
+            <input type="submit" value="Alterar">
+            <input type="reset" value="Limpar Campo">
+        </form>
+    </div>
+    </div>
+
+    <footer>
+        <p>Author: Luiz Eduardo Jacó Andrade </p>
+    </footer>
+
+</body>
+</html>

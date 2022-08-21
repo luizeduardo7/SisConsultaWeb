@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Excluir Cliente</title>
+    <link href="links.css" rel="stylesheet">
+    <link href="layout.css" rel="stylesheet">
+    <link href="Form.css" rel="stylesheet">
+    <link href="input.css" rel="stylesheet">
+    
+
+</head>
+<body>
+
+    <div class="container">
+        <a class="linkInicio" href="Clientes.html"> Voltar</a><br>
+    <div class="box">
+        <h2>Excluir Cliente por CPF</h2>
+        
+        <form action="..\Controller\ExcluirCliente.php" method="POST">
+            CPF: <input type="text" name="ccpf" required><br><br>
+
+            <input type="submit" value="Excluir">
+            <input type="reset" value="Limpar Campo">
+        </form>
+    </div>
+    </div>
+
+    <footer>
+        <p>Author: Luiz Eduardo Jacó Andrade</p>
+    </footer>
+</body>
+</html>

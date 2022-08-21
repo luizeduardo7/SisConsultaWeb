@@ -1,0 +1,30 @@
+input[type=submit]{
+    width: 100%;
+    background-color: #1a751d;
+    color: white;
+    padding: 9px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover{
+    background-color: #125a16;
+}
+
+input[type=reset]{
+    width: 100%;
+    background-color: #b37400;
+    color: white;
+    padding: 9px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover{
+    background-color: #6b4600;
+}
